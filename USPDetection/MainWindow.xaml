@@ -1,0 +1,15 @@
+﻿<Window x:Class="USPDetection.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        WindowStartupLocation="CenterScreen"
+        xmlns:local="clr-namespace:USPDetection"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1000">
+    <Grid>
+        <TextBox x:Name="txtDrives" FontSize="25" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextWrapping="Wrap" HorizontalAlignment="Left" Margin="10,0,0,0" Text="" VerticalAlignment="Center" Width="795" Height="522"/>
+        <Button x:Name="btnFindDrives" FontSize="25" Content="Find Drives" HorizontalAlignment="Left" Margin="814,0,0,0" VerticalAlignment="Center" Height="71" Width="147" RenderTransformOrigin="0.27,0.497" Click="btnFindDrives_Click"/>
+        <Button x:Name="btnReset" Content="Reset" FontSize="25" HorizontalAlignment="Left" Margin="814,347,0,0" VerticalAlignment="Top" Height="71" Width="147" Click="btnReset_Click"/>
+    </Grid>
+</Window>
